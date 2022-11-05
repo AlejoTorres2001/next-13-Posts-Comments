@@ -1,6 +1,6 @@
 import React from 'react'
-import { PostParams } from '../../../@types'
-import Post from '../../../components/Posts/Post'
+import { PostParams } from '../../../../@types'
+import { Post } from '../../../../components/Posts/index'
 
 export default async function PostPage ({
   params,
