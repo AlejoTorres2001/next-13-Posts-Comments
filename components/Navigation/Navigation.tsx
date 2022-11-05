@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { Links } from '../@types'
+import { Links } from '../../@types'
 import styles from './Navigation.module.css'
 const links: Links = [
   { href: '/', label: 'Home' },
