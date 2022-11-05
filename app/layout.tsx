@@ -1,6 +1,11 @@
 import React from 'react'
 import Navigation from '../components/Navigation'
 import '../styles/globals.css'
+import { Space_Grotesk } from '@next/font/google'
+
+const font = Space_Grotesk({
+  weight: ['400', '700']
+})
 export default function RootLayout ({
   children
 }: {
@@ -9,7 +14,7 @@ export default function RootLayout ({
   return (
     <html>
       <head />
-      <body>
+      <body className={font.className}>
         <Navigation />
         {children}
       </body>
