@@ -1,7 +1,10 @@
 import React from 'react'
-
-export default function PostsPage ():React.ReactElement {
+import { PostsList } from '../../components/Posts/index'
+export default async function PostsPage (): Promise<React.ReactElement> {
   return (
-    <div>Showing posts</div>
+    <section>
+      {/* eslint-ignore-next-line */}
+      <PostsList />
+    </section>
   )
 }
