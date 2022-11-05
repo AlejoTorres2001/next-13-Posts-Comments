@@ -1,0 +1,14 @@
+
+.header{
+  border: 1px solid #f0f0f0;
+  border-radius: 4px;
+  padding: 4px;
+}
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
