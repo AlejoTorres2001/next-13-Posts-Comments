@@ -1,9 +1,11 @@
 import Link from 'next/link'
 import React from 'react'
+import { Links } from '../@types'
 import styles from './Navigation.module.css'
-const links: Array<{ href: string; label: string }> = [
+const links: Links = [
   { href: '/', label: 'Home' },
-  { href: '/about', label: 'About' }
+  { href: '/about', label: 'About' },
+  { href: '/posts', label: 'Posts' }
 ]
 
 export function Navigation (): React.ReactElement {
